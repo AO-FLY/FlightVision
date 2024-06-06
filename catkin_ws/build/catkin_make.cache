@@ -1,0 +1,2 @@
+serial_stm32
+-DCATKIN_DEVEL_PREFIX=/home/horizon/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/horizon/catkin_ws/install -G Unix Makefiles

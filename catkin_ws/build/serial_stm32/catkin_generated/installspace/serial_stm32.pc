@@ -1,0 +1,8 @@
+prefix=/home/horizon/catkin_ws/install
+
+Name: serial_stm32
+Description: Description of serial_stm32
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

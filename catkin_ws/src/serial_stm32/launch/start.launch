@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_t265_demo01.launch" />
+    <node pkg="serial_stm32" type="stm32_demo01" name="air_t265" output="screen" />
+    <node pkg="serial_stm32" type="stm32_demo02" name="air2_t265" output="screen" />
+
+
+
+</launch>
+
